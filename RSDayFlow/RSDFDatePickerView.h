@@ -131,35 +131,35 @@
  
  @discussion Can be overridden in subclasses for customization.
  */
-- (Class)daysOfWeekViewClass;
+- (Class)classForDaysOfWeekView;
 
 /**
  The class of the collection view which used to display days and months in the date picker view. Default value is `RSDFDatePickerCollectionView`.
  
  @discussion Can be overridden in subclasses for customization.
  */
-- (Class)collectionViewClass;
+- (Class)classForCollectionView;
 
 /**
  The class of the layout of the collection view which used the date picker. Default value is `RSDFDatePickerCollectionViewLayout`.
  
  @discussion Can be overridden in subclasses for customization.
  */
-- (Class)collectionViewLayoutClass;
+- (Class)classForCollectionViewLayout;
 
 /**
  The class of the reusable view which used to display a month and year in the date picker view. Default value is `RSDFDatePickerMonthHeader`.
  
  @discussion Can be overridden in subclasses for customization.
  */
-- (Class)monthHeaderClass;
+- (Class)classForMonthHeader;
 
 /**
  The class of the cell which used to display a day in the date picker view. Default value is `RSDFDatePickerDayCell`.
  
  @discussion Can be overridden in subclasses for customization.
  */
-- (Class)dayCellClass;
+- (Class)classForDayCell;
 
 @end
 
